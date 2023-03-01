@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=Kaushan+Script&family=Koulen&family=Tapestry&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 16px 0px;
+}
+
+.navbar ul li {
+  font-family: "Comfortaa", cursive;
+
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(15, 1, 1);
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  background-color: rgb(2, 0, 0);
+  color: rgb(241, 232, 232);
+  box-shadow: 0 0 10px rgb(1, 0, 0);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+/*home*/
+#home {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 798px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url("121920.jpg") no-repeat center center/cover;
+  margin: -78px 0px;
+}
+
+h2 {
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    rgb(8, 8, 8),
+    rgb(206, 174, 11),
+    rgb(15, 15, 15)
+  );
+  font-family: "Dancing Script", cursive;
+  font-size: 6vh;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+p1 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 8em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, rgb(212, 179, 15), #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 719px;
+  justify-content: center;
+  align-items: center;
+  margin: -78px 0px;
+}
+
+#product {
+  display: flex;
+  flex-direction: column;
+  margin: -78px 0px;
+  height: 796px;
+  justify-content: center;
+  align-items: center;
+  background: url("111920.jpg") no-repeat center center/cover;
+}
+
+p {
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  font-size: 6vh;
+  background: linear-gradient(
+    285deg,
+    rgb(0, 0, 0),
+    rgb(212, 179, 15),
+    rgb(0, 0, 0)
+  );
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h5 {
+  font-family: "Comfortaa", cursive;
+}
+
+.btn {
+  color: rgb(15, 1, 1);
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: rgb(2, 0, 0);
+  color: rgb(241, 232, 232);
+  box-shadow: 0 0 10px rgb(1, 0, 0);
+}
+
+.btn-1 {
+  font-family: "Comfortaa", cursive;
+  margin: 17px;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 20px;
+  padding: 4px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-1:hover {
+  color: rgb(241, 232, 232);
+  box-shadow: 0 0 10px rgb(1, 0, 0);
+  background: linear-gradient(90deg, #000, rgb(212, 179, 15), #000);
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+#about {
+  display: flex;
+
+  font-family: "Comfortaa", cursive;
+  height: 512px;
+  justify-content: center;
+  align-items: center;
+
+  background: url("726.jpg") no-repeat center center/cover;
+}
+
+h3{
+  font-size: 11vh;
+color: aliceblue;
+  
+}
